@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 225, 220);
+}
+
+/* Utility Class */
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.signup-body {
+    background-color: rgb(248, 253, 199);
+    width: 25vw;
+    height: 30vh;
+    border-radius: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.signup-body h2 {
+    margin-top: 15px;
+    font-size: 1.8rem;
+}
+
+.input-class {
+    margin: 20px;
+}
+
+label {
+    margin-inline: 10px;
+}
+
+input {
+    padding: 5px;
+    border: 0.2px solid gray;
+}
+
+#fname, #lname {
+    width: 25%;
+}
+
+#email{
+    width: 80%;
+}
+
+#password {
+    width: 75%;
+}
+
+.signup-body input {
+    margin-block: 10px;
+    border-radius: 4px;
+    height: 30px;
+}
+
+#submit {
+    padding-block: 5px;
+    padding-inline: 60px;
+    background-color: beige;
+    font-size: 1rem;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: rgb(252, 252, 153);
+    color: orangered;
+}
